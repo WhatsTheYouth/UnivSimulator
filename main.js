@@ -415,7 +415,7 @@ function setCollegeApplyPage(currentPlayer) {
 window.onload = function() {
     let btn = document.getElementById('startButton');
     btn.disabled = false; 
-    btn.textContent = '填志愿';
+    btn.textContent = '做你想做的';
     btn.addEventListener("click", setGame);
 };
 
